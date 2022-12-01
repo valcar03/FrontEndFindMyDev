@@ -13,7 +13,7 @@ color 1:
 body{
     margin: 0;
     padding: 0;
-    background: url(../assets/fondo.jpg);   
+    background: url(../assets/img/fondo.jpg);   
     background-size: cover;
     background-position: center;
     font-family: sans-serif;
