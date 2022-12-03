@@ -30,3 +30,8 @@ body{
 .titulo-1{
     font-size: 46px
 }
+
+.main{
+    margin-top: 60px;
+    color: black;
+}
