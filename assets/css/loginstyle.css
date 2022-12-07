@@ -1,0 +1,85 @@
+/* Backgorund con css*/
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(/assets/img/fondo.jpg);
+    background-size: cover;
+}
+
+
+/*Login form css*/
+
+.form {
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    z-index: 1;
+    background-color: #2a2ae4;
+    opacity: 99%;
+    width: 500px;
+    height: 400px;
+    margin: 200px auto 100px;
+    padding: 10px 45px 30px 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+}
+
+.form p {
+    font-size: 20px;
+    padding: 1px;
+    text-align: center;
+}
+
+.form input {
+    outline: 0;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form input:hover {
+    background-color: rgb(206, 231, 223);
+    transition: all 1s ease 0s;
+}
+
+.form input:focus {
+    background-color: rgb(213, 225, 247);
+    transition: all 1s ease 0s;
+}
+
+.form button {
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 15px;
+    background: rgb(187, 187, 241);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+    background-color: rgb(158, 172, 255);
+    transition: all 1s ease 0s;
+}
+
+.form .message {
+    margin: 15px 0 0;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.form .message a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
