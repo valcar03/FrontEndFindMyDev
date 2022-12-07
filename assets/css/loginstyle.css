@@ -3,7 +3,7 @@
 body {
     padding: 0;
     margin: 0;
-    background: url(assets/img/fondo.jpg);
+    background-image: url(/assets/img/fondo.jpg);
     background-size: cover;
 }
 
@@ -14,9 +14,10 @@ body {
     font-family: "Roboto", sans-serif;
     position: relative;
     z-index: 1;
-    background-color: #1313e0;
+    background-color: #2a2ae4;
     opacity: 99%;
-    max-width: 260px;
+    width: 500px;
+    height: 400px;
     margin: 200px auto 100px;
     padding: 10px 45px 30px 45px;
     text-align: center;
