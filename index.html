@@ -11,46 +11,57 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!--iconos fontawesome-->
+    <script src="https://kit.fontawesome.com/3ad8b80676.js" crossorigin="anonymous"></script>
     <title>index FindMyDev</title>
   </head>
   <body>
     <!-- Navbar-->
-    <nav class="navbar">
-      <div class="navbar-logo">
-          <img src="./assets/img/logo-removebg-preview.png" alt="logo">
-      </div>
-      <div class="navbar-icon">
-          <i class="fa-solid fa-bars"></i>
-      </div>
-      <div class="navbar-menu">
-          <ul>
-              <li>
-                  <a href="#Acerca de">Acerca de</a>
-              </li>
-              <li>
-                  <a href="#Cursos">Cursos</a>
-              </li>
-              <li>
-                  <a href="#Precios">Precios</a>
-              </li>
-          </ul>
-      </div>
-  </nav>
+<!-- Navbar -->
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light" id="navv">
+
+<div class="container d-flex justify-content-center">
+  <div class="row">
+    <div class="col-12 d-flex justify-content-center">
+      <a class="navbar-brand" href="#"
+      ><img
+        src="/assets/img/logo-removebg-preview.png"
+        alt="Logo"
+        height="70"
+    /></a>
+    </div>
+    <div>
+      <ul class="nav justify-content-end" id="lista">
+        <li class="nav-item">
+          <button type="button" class="btn btn-info btn-1 ">Ingresa</button>
+        </li>
+        <li class="nav-item">
+          <button type="button" class="btn btn-info btn-1 ">Registrate</button>
+        </li>
+    
+      </ul>
+    </div>
+  </div>
+</div>
+</nav>
+</div>
+<!-- Navbar -->
     <!-- se realiza diseño de index-->
     <!--container general-->
-    <div class="container mt-5">
+    <div class="container" id="page">
       <div class="row">
         <div class="col-md-5 mt-7" id="uno">
           <img
-            src="/assets/img/svg/undraw_coffee_with_friends_3cbj.svg"
+            src="/assets/img/recluter2.png"
             alt=""
             width="500px"
           />
         </div>
         <div class="col-md-7 dos mt-5">
-          <div class="card bg-light mb-3 mb-3">
+          <div class="card  mb-3 card-menu">
             <div class="card-header">
-              <img src="/assets/img/puntos.png" alt="" width="100px" />
+              <img src="/assets/img/puntos.png" alt="" width="200px" />
             </div>
             <div class="card-body">
               <h2 class="card-title text-center"><strong>BIENVENIDOS A NUESTRA WEB</strong></h2>
@@ -67,15 +78,12 @@
           </div>
         </div>
       </div>
-      <section class="container">
+      <section class="container-fluid">
         <div class="row mt-5 text-center">
-          <div class="encabezado">
-          <img src="/assets/img/puntos.png" alt="" width="100px">
-          <h2 class="titulo-1"><abbr title="attribute"><strong> Perfiles</strong></abbr></h2>
-        </div>
+       
           <div class="col-md-6">
-          <div class="card mb-3">
-            <div class="card-header">
+          <div class="card mb-3 border-info">
+            <div class="card-header  card-header-2">
               <img src="/assets/img/clipazul-removebg-preview.png" alt="" width="50px">
               <br>
               <h3><strong>Postulantes</strong></h3>
@@ -90,14 +98,14 @@
               </p>
             </div>
             <div class="card-body">
-              <button class="btn btn-lg btn-primary" type="button">INGRESA</button>
+              <button class="btn btn-lg btn-primary btn-2" type="button">INGRESA</button>
             </div>
           </div>
         </div>
         <!--segunda card-->
         <div class="col-md-6">
-          <div class="card mb-3 cartas">
-            <div class="card-header">
+          <div class="card mb-3 cartas border-info">
+            <div class="card-header card-header-2">
             <img src="/assets/img/clipazul-removebg-preview.png" alt="" width="50px">
             <br>
             <h3><strong>Reclutadores</strong></h3>
@@ -110,12 +118,12 @@
               <p class="card-text">Eres distinto no solo quieres presentar a alguien que tenga el conocimiento si no que te interesan las personas y la calidad humana que encuentras detras de eso .... en FindMyDev te ayudamos a encontrar el potencial que estas buscando para tu equipo de trabajo podras filtrar al candidato ideal basando en sus aptitudes y fortalezas donde destacan sus habilidades blandas</p>
             </div>
               <div class="card-body">
-                <button class="btn btn-lg btn-primary" type="button">INGRESA</button>
+                <button class="btn btn-lg btn-primary btn-2" type="button">INGRESA</button>
               </div>
           </div>
         </div>
       </section>
-      <section class="alert alert-dismissible alert-light main">
+      <section class="alert alert-dismissible alert-light main ">
         <div class="row d-flex justify-content-center">
         <div class="col-md-3">
           <img src="/assets/img/svg/cvmonitoH.svg" alt="" width="100%">
@@ -123,9 +131,9 @@
         <div class="col-md-3">
           <figure class="text-center">
             <blockquote class="blockquote">
-            <h4 class="text-info"> <strong>Tu presentacion en Linea de una forma atractiva y modificable en el tiempo donde lo que importa eres Tu .</strong></h4>
+            <h4 class="mt-4"> <strong>Tu presentacion en Linea de una forma atractiva y modificable en el tiempo donde lo que importa eres Tu .</strong></h4>
             </blockquote>
-            <figcaption class="blockquote-footer">
+            <figcaption class="blockquote-footer nota">
               creado con amor <cite title="Source Title">Equipo FindMyDev</cite>
             </figcaption>
           </figure>
@@ -135,6 +143,23 @@
         </div>
         </div>
       </section>
+      <div class="row text-center">
+      <div class="col-md-4 ">
+        <div class="container-icon text-center mx-center">
+        <i class="fas fa-star-half-alt fa-7x icon"></i>
+        </div>
+        <h4>Califica tus habilidades </h4>
+
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-users fa-7x icon"></i>
+        <h4>Encuentra Comunidad</h4>
+      </div>
+      <div class="col-md-4">
+        <i class="fas fa-mug-hot fa-7x icon"></i>
+        <h4>Destaca tus Intereses</h4>
+      </div>
+      </div>
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
