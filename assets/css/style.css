@@ -1,48 +1,62 @@
-.navbar {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 5rem;
-    background-color:  #f1bc54;
-    box-sizing: border-box;
-    padding-left: 1.875rem;
-    padding-right: 0.625rem;
-  }
-  
-  .navbar-logo {
-    box-sizing: border-box;
-    
-  }
-  
-  .navbar-logo img {
-    width: 200px;
+#navv{
+margin-top:5 px;
+padding-top: 0;
+padding-bottom: 0;
+}
 
-  }
+#lista{
+  margin-left: 750px;
+}
+
+.btn-1{
+  margin-left: 15px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  background-color:  #f1bc54;
+} 
+
+.card-menu{
+  background-color: #f1bc54;
+  color: black;
+}
+
+#page{
+margin-top: 200px;
+
+}
+
+.card-header-2{
+  background-color:#5ab0df;
+  color: black;
+}
+
+.btn-2{
+  background-color: #5ab0df;
+  color: black;
+}
+
+.main{
+  margin-top: 100px;
+  background-color: #f1bc54;
+  color: black;
+}
+
+.nota{
+  color: black;
+}
+
+.icon{
+  color: rgb(42, 37, 148);
+  align-items: center;
   
-  .navbar-icon {
-    box-sizing: border-box;
-    text-align: end;
-    padding-top: 1.25rem;
-    padding-bottom: 1.25rem;
-    padding-right: 1.25rem;
-  }
-  
-  @media (min-width: 768px) {
-    .navbar-icon {
-      display: none;
-    }
-  }
-  
-  .navbar-menu ul {
-    display: none;
-  }
-  
-  @media (min-width: 768px) {
-    .navbar-menu ul {
-      display: grid;
-      grid-template-columns: 5.1875rem 3.625rem 3.8125rem;
-      grid-gap: 1.875rem;
-      justify-content: end;
-      padding: 1.875rem 1.25rem;
-      margin: 0rem;
-    }
-  }
+
+}
+
+.container-icon{
+  border-radius: 100%;
+  background-color: rgb(163, 244, 244);
+  height: 200px;
+  width: 200px;
+  align-content: center;
+
+}
