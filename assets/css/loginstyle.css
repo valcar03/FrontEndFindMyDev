@@ -3,8 +3,13 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url(/assets/img/fondo.jpg);
-    background-size: cover;
+    background-color: rgb(208, 242, 250);
+    background-image: url(/assets/img/recluter2.png);
+    backdrop-filter: blur(10px);
+    height: 100vh;
+    width: 100%;
+
+
 }
 
 
@@ -14,16 +19,17 @@ body {
     font-family: "Roboto", sans-serif;
     position: relative;
     z-index: 1;
-    background-color: #2a2ae4;
-    opacity: 99%;
-    width: 500px;
-    height: 400px;
-    margin: 200px auto 100px;
+    background-color: #4491b4;
+    opacity: 90%;
+    width: 600px;
+    height: 500px;
+    margin: 300px auto 200px;
     padding: 10px 45px 30px 45px;
     text-align: center;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
-    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(255, 238, 238, 0.2), 0 5px 5px 0 rgba(226, 218, 218, 0.24);
+    border-radius: 5px;
 }
+
 
 .form p {
     font-size: 20px;
@@ -33,53 +39,74 @@ body {
 
 .form input {
     outline: 0;
-    border-radius: 10px;
+    border-radius: 5px;
     background: rgb(255, 255, 255);
     width: 100%;
     border: 0;
     margin: 0 0 15px;
     padding: 15px;
     box-sizing: border-box;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 .form input:hover {
-    background-color: rgb(206, 231, 223);
+    background-color: rgb(137, 214, 190);
     transition: all 1s ease 0s;
 }
 
 .form input:focus {
-    background-color: rgb(213, 225, 247);
+    background-color: rgb(98, 131, 194);
     transition: all 1s ease 0s;
 }
 
 .form button {
     text-transform: uppercase;
     outline: 0;
-    border-radius: 15px;
-    background: rgb(187, 187, 241);
-    width: 100%;
+    border-radius: 10px;
+    background: rgb(144, 144, 230);
+    width: 80%;
     border: 0;
     padding: 15px;
     color: rgb(0, 0, 0);
-    font-size: 14px;
+    font-size:15px;
+    font-style:normal;
     cursor: pointer;
 }
 
 .form button:hover,
 .form button:active,
 .form button:focus {
-    background-color: rgb(158, 172, 255);
+    background-color: rgb(179, 179, 179);
     transition: all 1s ease 0s;
 }
 
 .form .message {
     margin: 15px 0 0;
     color: rgb(255, 255, 255);
-    font-size: 12px;
+    font-size: 17px;
 }
 
 .form .message a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: 17px;
+    font-style:italic;
 }
+.form .text {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-style:italic;
+}
+
+#navv{
+    margin-top:5 px;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+
+
+
+
+
+
