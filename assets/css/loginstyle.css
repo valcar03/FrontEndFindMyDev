@@ -1,6 +1,6 @@
 /* Backgorund con css*/
 
-body {
+/*body {
     padding: 0;
     margin: 0;
     background-color: rgb(208, 242, 250);
@@ -10,10 +10,33 @@ body {
     width: 100%;
 
 
-}
+}*/
+
+body{
+    background-color: rgb(208, 242, 250);
+    background-image: url(/assets/img/recluter2.png);
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    
+    background-color: rgb(208, 242, 250);
+    
+    }
+    
 
 
 /*Login form css*/
+
+#navv{
+    margin-top:5 px;
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+    
+    #lista{
+    margin-left: 750px;
+    }
+
 
 .form {
     font-family: "Roboto", sans-serif;
@@ -99,11 +122,7 @@ body {
     font-style:italic;
 }
 
-#navv{
-    margin-top:5 px;
-    padding-top: 0;
-    padding-bottom: 0;
-    }
+
 
 
 
