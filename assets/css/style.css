@@ -93,18 +93,15 @@ box-shadow: -10px 12px 83px -20px rgba(0,0,0,0.56);
   color: black;
 }
 
-.icon{
-  color: rgb(42, 37, 148);
-  align-items: center;
+#icon-section{
+  height: 80vh;
+  width: 100%;
+  margin-top: 85px;
   
-
+  
 }
 
-.container-icon{
-  border-radius: 100%;
-  background-color: rgb(163, 244, 244);
-  height: 200px;
-  width: 200px;
-  align-content: center;
+.icon{
+  color: rgb(255, 255, 255);
 
 }
