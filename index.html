@@ -18,72 +18,46 @@
   <body>
     <!-- Navbar-->
 <!-- Navbar -->
-<div class="container-fluid">
-<nav class="navbar navbar-expand-lg fixed-top bg-light navbar-light" id="navv">
+  <nav class="navbar bg-light ">
+    <div class="container-fluid ">
+        <img src="/assets/img/logo-removebg-preview.png" alt="Logo" width="200" height="60" >
+    </div>
+    <form class="container-fluid justify-content-end">
+      <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+      <button class="btn btn-sm btn-outline-secondary" type="button">Smaller button</button>
+    </form>
+  </nav>
 
-<div class="container d-flex justify-content-center">
-  <div class="row">
-    <div class="col-12 d-flex justify-content-center">
-      <a class="navbar-brand" href="#"
-      ><img
-        src="/assets/img/logo-removebg-preview.png"
-        alt="Logo"
-        height="70"
-    /></a>
-    </div>
-    <div>
-      <ul class="nav justify-content-end" id="lista">
-        <li class="nav-item">
-          <button type="button" class="btn btn-info btn-1 ">Ingresa</button>
-        </li>
-        <li class="nav-item">
-          <button type="button" class="btn btn-info btn-1 ">Registrate</button>
-        </li>
-    
-      </ul>
-    </div>
-  </div>
-</div>
-</nav>
-</div>
 <!-- Navbar -->
     <!-- se realiza diseño de index-->
     <!--container general-->
-    <div class="container" id="page">
-      <div class="row">
-        <div class="col-md-5 mt-7" id="uno">
-          <img
-            src="/assets/img/recluter2.png"
-            alt=""
-            width="500px"
-          />
-        </div>
-        <div class="col-md-7 dos mt-5">
-          <div class="card  mb-3 card-menu">
-            <div class="card-header">
-              <img src="/assets/img/puntos.png" alt="" width="200px" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-title text-center"><strong>BIENVENIDOS A NUESTRA WEB</strong></h2>
-              <p class="card-text">
-                En FindMyDev nos preocupamos no solo de que puedas darte a
-                conocer si no tambien logramos la diferencia . Una aplicacion
-                donde tus habilidades blandas y porsupuesto tus habilidades
-                tecnicas se encontraran a la vista del reclutador o empresas y
-                de esta manera puedan llegar a ti y conocerte mas alla...
-                Demuestra todo de ti en tu perfil de Cv donde podras incorporar
-                tus datos y dar muestra de tus proyectos
-              </p>
+      <section class="container-fluid">
+        <div class="row mt-5 ">
+          <div class="col-md-8 dos  mx-auto ">
+            <div class="card  mb-3 card-menu">
+              <div class="card-header">
+                <img src="/assets/img/puntos.png" alt="" width="200px" />
+              </div>
+              <div class="card-body">
+                <h2 class="card-title text-center"><strong>BIENVENIDOS A NUESTRA WEB</strong></h2>
+                <p class="card-text">
+                  En FindMyDev nos preocupamos no solo de que puedas darte a
+                  conocer si no tambien logramos la diferencia . Una aplicacion
+                  donde tus habilidades blandas y porsupuesto tus habilidades
+                  tecnicas se encontraran a la vista del reclutador o empresas y
+                  de esta manera puedan llegar a ti y conocerte mas alla...
+                  Demuestra todo de ti en tu perfil de Cv donde podras incorporar
+                  tus datos y dar muestra de tus proyectos
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <section class="container-fluid">
-        <div class="row mt-5 text-center">
-       
-          <div class="col-md-6">
-          <div class="card mb-3 border-info">
-            <div class="card-header  card-header-2">
+            <!-- inicio de seccion de cartas postulantes y recluter-->
+        <div class="row justify-content-around">
+          <div class="col-md-4  ">
+          <div class="card mb-3 border-info text-center tarjeta2">
+            <div class=" card-header-2  ">
               <img src="/assets/img/clipazul-removebg-preview.png" alt="" width="50px">
               <br>
               <h3><strong>Postulantes</strong></h3>
@@ -102,10 +76,11 @@
             </div>
           </div>
         </div>
+        
         <!--segunda card-->
-        <div class="col-md-6">
-          <div class="card mb-3 cartas border-info">
-            <div class="card-header card-header-2">
+        <div class="col-md-4 text-center  " >
+          <div class="card mb-3 cartas tarjeta2 ">
+            <div class="card-header-2  ">
             <img src="/assets/img/clipazul-removebg-preview.png" alt="" width="50px">
             <br>
             <h3><strong>Reclutadores</strong></h3>
@@ -121,10 +96,17 @@
                 <button class="btn btn-lg btn-primary btn-2" type="button">INGRESA</button>
               </div>
           </div>
-        </div>
+        </div></div>
       </section>
+      <!-- fin de seccion de cartas postulantes y recluter-->
+
+      <!-- Inicio de iconos seccion-->
+      
       <section class="alert alert-dismissible alert-light main ">
+        
+
         <div class="row d-flex justify-content-center">
+          
         <div class="col-md-3">
           <img src="/assets/img/svg/cvmonitoH.svg" alt="" width="100%">
         </div>
@@ -143,23 +125,7 @@
         </div>
         </div>
       </section>
-      <div class="row text-center">
-      <div class="col-md-4 ">
-        <div class="container-icon text-center mx-center">
-        <i class="fas fa-star-half-alt fa-7x icon"></i>
-        </div>
-        <h4>Califica tus habilidades </h4>
-
-      </div>
-      <div class="col-md-4">
-        <i class="fas fa-users fa-7x icon"></i>
-        <h4>Encuentra Comunidad</h4>
-      </div>
-      <div class="col-md-4">
-        <i class="fas fa-mug-hot fa-7x icon"></i>
-        <h4>Destaca tus Intereses</h4>
-      </div>
-      </div>
+      
     </div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
