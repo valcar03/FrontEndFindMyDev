@@ -31,6 +31,7 @@ div {
  */
 *{
     font-weight: 700;
+    font-family: 'Nunito', sans-serif;
 }
 
 :root {
@@ -61,10 +62,7 @@ body {
 
     
 }
-.nunito{
-    font-family: 'Nunito', sans-serif;
-    font-weight: 400;
-}
+
 
 a {
     text-decoration: none
@@ -100,9 +98,16 @@ a {
 }
 .foto-avatar{
     border-radius: 55px;
-    background-color: #b46204;
-    margin-right:0px;
+width: 200px;
+height: 200;
+background-color: #5ab0df;
 }
+.imgg{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
 
 
 .img_logo1{
@@ -126,6 +131,7 @@ width: 250px;
     padding: .5rem 1rem 0 0;
     transition: .5s;
     z-index: var(--z-fixed)
+
 }
 
 .nav {
@@ -215,7 +221,7 @@ width: 250px;
 }
 
 .navbar-container{
-   padding: 5px 10px;
+   padding: 15px 10px;
 }
 .header-nav{
     margin: 5px;
@@ -227,12 +233,14 @@ width: 250px;
 #bienvenidatext{
     font-weight: 900;
     font-family: 'Nunito', sans-serif;
+    font-size: 33px;
+}
+.nombre-nav{
+    font-weight: 900;
+    font-size: 20px;
+
 }
 
-.imgg{
-    object-fit:cover;
-    border-radius: 50px;
-}
 
 @media screen and (min-width: 768px) {
     body {
