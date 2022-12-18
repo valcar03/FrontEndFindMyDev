@@ -97,17 +97,16 @@ a {
     overflow: hidden
 }
 .foto-avatar{
-    border-radius: 55px;
+    border-radius: 80px;
 width: 200px;
 height: 200;
-background-color: #5ab0df;
 }
+
 .imgg{
     height: 100%;
     width: 100%;
     border-radius: 50%;
 }
-
 
 
 .img_logo1{
