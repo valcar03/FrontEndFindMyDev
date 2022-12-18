@@ -44,6 +44,10 @@ body {
   background-color: #f8d02f;
 }
 
+.boton-modal-1{
+    background-color:#f8d02f ;
+}
+
 
 /*
 tarjetas CSS
@@ -130,6 +134,18 @@ h1 {
 
 .card h2 {
     font-size: 1rem;
+}
+
+.btn-perfiles{
+    border-radius: 15px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    background-color: #f8d02f;
+    color: #fff;
+}
+
+.tarjeta-postulante{
+    max-height: 480px;
 }
 
 
