@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+:root {
+	--app-theme: #5e17ec;
+	--card-shadow: 0px 5px 22px rgba(0, 0, 0, 0.3);
+	--overlay-background: rgba(0, 0, 0, 0.7);
+	--white-back: #fff;
+}
+
+body,
+html {
+	padding: 0;
+	margin: 0;
+	height: 100vh;
+	background: var(--app-theme);
+	display: grid;
+	place-items: center;
+	font-family: Montserrat, sans-serif;
+}
+
+.app-paper {
+	width: 400px;
+	padding: 30px 15px;
+	background-color: var(--white-back);
+	border-radius: 5px;
+	box-shadow: var(--card-shadow);
+	text-align: center;
+}
+
+.checkbox-list {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 14px;
+	gap: 15px;
+	padding: 20px 0;
+}
+
+.check-item input {
+	display: none;
+}
+
+.check-item span {
+	display: table;
+	padding: 7px 14px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	border-radius: 30px;
+	cursor: pointer;
+}
+
+.check-item input[type="radio"]:checked ~ span {
+	color: var(--white-back);
+	background-color: var(--app-theme);
+}

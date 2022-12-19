@@ -1,0 +1,358 @@
+/*Login form css*/
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
+/*celular*/
+@media screen and (max-width: 480px) {
+  body{
+    background-color: #d9d9d95a;
+    
+    }  
+
+  .uno{
+    display: grid;
+    place-items:center;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .dos{
+    display: none
+  }
+
+  .form {
+    font-family: "Nunito", sans-serif;
+    background-color:white;
+    width: 350px;
+    height: 500px;
+    margin: 100px 0px 0px 0px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    
+  }
+
+  .form2 {
+    font-family: "Roboto", sans-serif;
+    background-color:#ED7E19;
+    width: 350px;
+    height: 500px;
+    margin: 0px 0px 100px 0px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+  }
+
+  .form img{
+    padding: 55px 10px 15px 35px;
+  }
+
+  .form p {
+    font-size: 20px;
+    padding: 1px;
+    text-align: center;
+  }
+
+  .form input {
+    outline: 10px;
+    border-radius: 15px;
+    background:white;
+    width: 100%;
+    border: 3px solid;
+    border-color: black;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  .form input:hover {
+    background-color:#0000001d;
+    transition: all 1s ease 0s;
+  }
+  /*
+  .form input:focus {
+    background-color: #ed7f19d0;
+    transition: all 1s ease 0s;
+  }
+  */
+  .form button {
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 15px;
+    background:#F8D02F;
+    width: 100%;
+    border: 3px solid;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    font-style:normal
+    
+    cursor pointer;
+  }
+
+  .form button:hover,
+  .form button:active,
+  .form button:focus {
+    background-color: #ecbf0e;
+    transition: all 1s ease 0s;
+  }
+
+  .form .message {
+    margin: 15px 0 0;
+    color: black;
+    font-size: 17px;
+  }
+
+  .form .message a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    font-style:italic;
+  }
+  .form .text {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-style:italic;
+  }
+
+
+
+}
+
+/*tablet*/
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+  body{
+    background-color: #d9d9d95a;
+    
+    } 
+
+  .uno{
+    display: grid;
+    place-items:center;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .dos{
+    display: none
+    
+  }
+
+  .form {
+    font-family: "Nunito", sans-serif;
+    background-color:white;
+    width: 350px;
+    height: 500px;
+    margin: 100px 0px 100px 0px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    
+  }
+
+  .form2 {
+    font-family: "Roboto", sans-serif;
+    background-color:#ED7E19;
+    width: 50%;
+    height: 500px;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+  }
+
+  .form img{
+    padding: 55px 10px 15px 35px;
+  }
+
+  .form p {
+    font-size: 20px;
+    padding: 1px;
+    text-align: center;
+  }
+
+  .form input {
+    outline: 10px;
+    border-radius: 15px;
+    background:white;
+    width: 100%;
+    border: 3px solid;
+    border-color: black;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  .form input:hover {
+    background-color:#0000001d;
+    transition: all 1s ease 0s;
+  }
+  /*
+  .form input:focus {
+    background-color: #ed7f19d0;
+    transition: all 1s ease 0s;
+  }
+  */
+  .form button {
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 15px;
+    background:#F8D02F;
+    width: 100%;
+    border: 3px solid;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    font-style:normal
+    
+    cursor pointer;
+  }
+
+  .form button:hover,
+  .form button:active,
+  .form button:focus {
+    background-color: #ecbf0e;
+    transition: all 1s ease 0s;
+  }
+
+  .form .message {
+    margin: 15px 0 0;
+    color: black;
+    font-size: 17px;
+  }
+
+  .form .message a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    font-style:italic;
+  }
+  .form .text {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-style:italic;
+  }
+
+}
+
+/*desktop*/
+@media screen and (min-width: 1024px) {
+  body{
+    background-color: #d9d9d95a;
+    
+    } 
+  
+  .uno{
+    display: grid;
+    place-items:flex-end;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .dos{
+    display: grid;
+    place-items:flex-start;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .form {
+    font-family: "Nunito", sans-serif;
+    background-color:white;
+    width: 350px;
+    height: 500px;
+    margin: 100px 0px 100px 100px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+    
+  }
+
+  .form2 {
+    font-family: "Roboto", sans-serif;
+    background-color:#ED7E19;
+    width: 350px;
+    height: 500px;
+    margin: 100px 100px 100px 0px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 15px;
+  }
+
+  .form img{
+    padding: 55px 10px 15px 35px;
+  }
+
+  .form2 img{
+    padding: 60px 30px 10px 0px;
+    filter:opacity(50%);
+    filter: brightness(40%);
+    filter:saturate(-100)
+    ;
+  }
+
+  .form p {
+    font-size: 20px;
+    padding: 1px;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .form input {
+    outline: 10px;
+    border-radius: 15px;
+    background:white;
+    width: 100%;
+    border: 3px solid;
+    border-color: black;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+  }
+
+  .form input:hover {
+    background-color:#0000001d;
+    transition: all 1s ease 0s;
+  }
+  /*
+  .form input:focus {
+    background-color: #ed7f19d0;
+    transition: all 1s ease 0s;
+  }
+  */
+  .form button {
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 15px;
+    background:#F8D02F;
+    width: 100%;
+    border: 3px solid;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    
+    font-weight: bold !important;
+    cursor: pointer;
+  }
+
+  .form button:hover,
+  .form button:active,
+  .form button:focus {
+    background-color: #ecbf0e;
+    transition: all 1s ease 0s;
+  }
+
+  .form .message {
+    margin: 15px 0 0;
+    color: black;
+    font-size: 17px;
+  }
+
+  .form .message a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 17px;
+    font-style:italic;
+  }
+  .form .text {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+    font-style:italic;
+  }
+}
