@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css");
+
+* {
+  background-color: F5F5F5;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+
+
+.main-central {
+  margin-top: 60px;
+  justify-content: center;
+  
+}
+
+.text-buscador{
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-left:50px;
+}
+
+.buscador {
+  height: 200px;
+  width: 100%;
+  background-color: rgba(21, 245, 170, 0.406);
+  margin: 0px 30px;
+  border-radius: 15px;
+}
+
+.container-filtros {
+  justify-content: center;
+}
+
+.btn-filtro {
+  border-radius: 15px;
+  width: 12rem;
+  height: 40px;
+  background-color: #f8d02f;
+}
+
+.boton-modal-1{
+    background-color:#f8d02f ;
+}
+
+
+/*
+tarjetas CSS
+
+*/
+.text-resultados{
+    font-family: "Nunito", sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+#resultados-postulantes{
+    margin-top: 50px;
+}
+
+
+:root {
+    --font3: "Nunito", sans-serif;
+}
+
+.h1,
+h1 {
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    max-width: 1400px;
+}
+
+.card {
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    border: 1;
+    border-radius: 15px;
+}
+
+.img-hover-zoom--colorize img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+    padding: 1px;
+    transition: transform .5s;
+    filter: grayscale(100%);
+}
+
+.img-hover-zoom--colorize:hover img {
+    filter: grayscale(0);
+    transform: scale(1.05);
+}
+
+.card h5 {
+    overflow: hidden;
+    height: 80px;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.card h5 a {
+    color: black;
+    text-decoration: none;
+}
+
+.role {
+    color: #7a7a7a;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab {
+    font-size: 1.5rem;
+    color: rgb(62, 12, 12);
+    transition: transform .5s;
+}
+
+.fab:hover {
+    color: rgb(18, 0, 0);
+    transform: scale(1.1);
+}
+
+.card h2 {
+    font-size: 1rem;
+}
+
+.btn-perfiles{
+    border-radius: 15px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    background-color: #f8d02f;
+    color: #fff;
+}
+
+.tarjeta-postulante{
+    max-height: 480px;
+}
+
+
+/* MEDIA */
+
+@media only screen and (min-width: 1200px) {
+    .img-hover-zoom--colorize img {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .h1,
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+/**
+Botones cards 
+*/
+
+.btn {
+    background: #EEECF7;
+    border: 0;
+    color: #5535F0;
+    width: 98%;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 40px;
+    transition: all 0.2s ease;
+}
+
+.btn:hover {
+          background: #441CFF;
+}
+
+.btn:focus {
+          background: #441CFF;
+          outline: 0;  
+}
