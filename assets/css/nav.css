@@ -172,7 +172,7 @@ a {
     position: relative;
     color: var(--first-color-light);
     margin-bottom: 1.5rem;
-    transition: .3s
+    transition: .3s;
 }
 
 .nav_link:hover {
