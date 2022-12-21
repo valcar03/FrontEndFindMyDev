@@ -3,6 +3,7 @@
 .btn_form{
 
 background-color: #ED7E19;
+width: 250px;
 
 }
 .form_body{
@@ -16,11 +17,19 @@ background-color:#F8D02F;
 
 }
 
-
+.input-text{
+    color: black
+}
 
 .btn_cerrar{background-color: #D9D9D9;}
 
 .font_Color{
 
-    color:white
+    color:black
 }
+
+.titulo_form{
+    
+        margin-top: 10px;
+    }
+    

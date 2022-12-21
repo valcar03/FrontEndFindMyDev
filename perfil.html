@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--CSS De NAvbar-->
     <!--Boostrap-->
-    <link rel="stylesheet" href="/assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
@@ -20,8 +20,8 @@
 
     <!-- Cierre Css de Nav-->
     <!-- Inicio clases para main Home -->
-    <link rel="stylesheet" href="/assets/css/home.css" />
-    <link rel="stylesheet" href="/assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/modal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"">
 
 
@@ -131,20 +131,20 @@
 
                         <div class="d-flex menu_lista">
 
-                            <div class="lista-item"> <a href="./habilidadesBlandas.html"><button
-                                type="button" class="btn btn_menu" data-bs-dismiss="modal">Habilidades
-                                Blandas</button> </a></div>
-                    <div class="lista-item"> <a href="./habilidadestTecnicas.html"><button
-                                type="button" class="btn btn_menu" data-bs-dismiss="modal">Habilidades
-                                Tecnicas</button> </a></div>
-                    <div class="lista-item"><a href="./laboral.html"><button type="button" class="btn btn_menu"
-                            data-bs-dismiss="modal">Experiencia Laboral</button></a></div>
-                    <div class="lista-item"><a href="./academica.html"><button type="button" class="btn btn_menu"
-                            data-bs-dismiss="modal">Formación Académica</button></a></div>
-                    <div class="lista-item"><a href="./registropostulanteproyecto.html"><button type="button" class="btn btn_menu"
-                            data-bs-dismiss="modal">Proyecto</button></a></div>
-                    <div class="lista-item"><a href="./registropostulantedatocontacto.html"><button type="button" class="btn btn_menu"
-                            data-bs-dismiss="modal">Datos de Contacto</button></a></div>
+                            <div class="lista-item"> <a href="./RegistrosPostulante/habilidadesBlandas.html"><button
+                                        type="button" class="btn btn_menu" data-bs-dismiss="modal">Habilidades
+                                        Blandas</button> </a></div>
+                            <div class="lista-item"> <a href="./RegistrosPostulante/habilidadestTecnicas.html"><button
+                                        type="button" class="btn btn_menu" data-bs-dismiss="modal">Habilidades
+                                        Tecnicas</button> </a></div>
+                            <div class="lista-item"><a href="./RegistrosPostulante/laboral.html"><button type="button" class="btn btn_menu"
+                                    data-bs-dismiss="modal">Experiencia Laboral</button></a></div>
+                            <div class="lista-item"><a href="./RegistrosPostulante/academica.html"><button type="button" class="btn btn_menu"
+                                    data-bs-dismiss="modal">Formación Académica</button></a></div>
+                            <div class="lista-item"><a href="./RegistrosPostulante/registropostulanteproyecto.html"><button type="button" class="btn btn_menu"
+                                    data-bs-dismiss="modal">Proyecto</button></a></div>
+                            <div class="lista-item"><a href="./RegistrosPostulante/registropostulantedatocontacto.html"></a><button type="button" class="btn btn_menu"
+                                    data-bs-dismiss="modal">Datos de Contacto</button></div>
                         </div>
                         <div>
 
@@ -168,54 +168,6 @@
                                 <div class="col-md-12 info_perfil">
                                     <h2> Maria Luz</h2>
                                     <p>maria@gmail.com</p>
-                                    <button type="button" class="btn btn_form" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        Academica
-                                    </button>
-                                    <form action="" method="post">
-                                
-                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                                                <div class="modal-content">
-                                                    <div class="modal-body form_body">
-                                                        <h1 class="modal-title fs-5 text-center" id="exampleModalLabel"> Academica</h1>
-                                                    </div>
-                                                    <div class="modal-body text-center">
-                                                        <!-- formulario de dato empresa   se borro foto---cambiar en base de datos  -->
-                                                        <div class="container">
-                                                            <div class="main active">
-                                                                <div class="heading">
-                                                                    
-                                                                    <div class="academica">
-                                                                        <div class="input-text">
-                                                                        <h5> Experiencia Académica</h5>
-                                                                    </div>
-                                                                    </div>
-                                
-                                                                    <div class="row justify-content">
-                                                                    <div class="input-text">
-                                                                        <label for="nombre">Nombre</label>
-                                <input type="text" placeholder="Nombre" require="required" id="Nombre">
-                                                                    </div>
-                                                                    <div class="input-text">
-                                                                        <label for="descripción">Descripción</label>
-                                <input type="text" placeholder="Descripción" require="required"
-                                                                            id="descripcion">
-                                                                    </div>
-                                                                    <div class="input-text">
-                                                                        <label for="fecha">Fecha</label>
-                                                                        <input type="text" placeholder="Fecha" require="required" id="Fecha">
-                                                                    </div>
-                                                                        
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="modal-footer">
-                                                                <button type="button" class="btn btn_cerrar" data-bs-dismiss="modal">Close</button>
-                                                                <button type="button submit" class="btn btn_submit">Save changes</button>
-                                                            </div>
-                                
-                                
-                                    </form>
 
 
 
@@ -266,7 +218,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
-    <script src="/assets/js/modal.js"></script>
+    <script src="../assets/js/modal.js"></script>
 
     <!-- scrip modal -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
