@@ -21,7 +21,7 @@ background-color:#F8D02F;
     color: black
 }
 
-.btn_cerrar{background-color: #D9D9D9;}
+.btn_cerrar{background-color: #D9D9D9 !important;}
 
 .font_Color{
 

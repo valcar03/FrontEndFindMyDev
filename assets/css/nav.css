@@ -485,3 +485,11 @@ background-color: #F8D02F!important;
 
 
 }
+.img1:hover{
+
+background-color: black!important;
+filter: brightness(120%);
+
+
+
+}
