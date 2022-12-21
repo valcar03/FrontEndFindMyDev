@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--CSS De NAvbar-->
     <!--Boostrap-->
-    <link rel="stylesheet" href="../assets/css/nav.css" />
+    <link rel="stylesheet" href="assets/css/nav.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
@@ -20,15 +20,13 @@
 
     <!-- Cierre Css de Nav-->
     <!-- Inicio clases para main Home -->
-    <link rel="stylesheet" href="../assets/css/home.css" />
-    <link rel="stylesheet" href="../assets/css/modal.css">
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/modal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"">
 
 
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    rel=" stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 
 
@@ -103,11 +101,17 @@
                 <div class="row main-central ">
                     <div class="col-12 fondo d-flex ">
                         <h2 class="text-buscador titulo_form ">Mi Perfil</h2>
-                       <ul class="opciones_perfil"> <a href=""><li> Editar perfil</li> </a>
-                        <a href=""><li>Cambiar contraseña</li> </a>
-                         <a href=""><li>Cambiar avatar</li> </a>
-                        
-                    </ul>
+                        <ul class="opciones_perfil"> <a href="">
+                                <li> Editar perfil</li>
+                            </a>
+                            <a href="">
+                                <li>Cambiar contraseña</li>
+                            </a>
+                            <a href="">
+                                <li>Cambiar avatar</li>
+                            </a>
+
+                        </ul>
                     </div>
                 </div>
 
@@ -127,10 +131,12 @@
 
                         <div class="d-flex menu_lista">
 
-                            <div class="lista-item"><button type="button" class="btn btn_menu"
-                                    data-bs-dismiss="modal">Habilidades Blandas</button></div>
-                            <div class="lista-item"><button type="button" class="btn btn_menu"
-                                    data-bs-dismiss="modal">Habilidades Tecnicas</button></div>
+                            <div class="lista-item"> <a href="./RegistrosPostulante/habilidadesBlandas.html"><button
+                                        type="button" class="btn btn_menu" data-bs-dismiss="modal">Habilidades
+                                        Blandas</button> </a></div>
+                            <div class="lista-item"> <a href="./RegistrosPostulante/habilidadestTecnicas.html"><button
+                                        type="button" class="btn btn_menu" data-bs-dismiss="modal">Habilidades
+                                        Tecnicas</button> </a></div>
                             <div class="lista-item"><button type="button" class="btn btn_menu"
                                     data-bs-dismiss="modal">Close</button></div>
                             <div class="lista-item"><button type="button" class="btn btn_menu"
@@ -164,60 +170,9 @@
                                     <p>maria@gmail.com</p>
 
 
-                                    <button type="button" class="btn btn_form" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                        Habilidades Tecnicas
-                                        </button>
-                                    
-                                    
-                                    
-                                    <form  class="formulario" action="" method="post">
-                                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                                                <div class="modal-content">
-                                                    <div class="modal-body form_body">
-                                                        <h1 class="modal-title fs-5 font_Color text-center"  id="exampleModalLabel">Seleccione sus habilidades Tecnicas</h1>
-                                                        
-                                                    </div>
-                                                    <div class="modal-body">
-                                    
-                                    
-                                                        <label>
-                                                            <input type="checkbox" id="cbox1" value="first_checkbox">
-                                                            Java</label>
-                                                        <br>
-                                    
-                                                        <label>
-                                                            <input type="checkbox" id="cbox1" value="first_checkbox">
-                                                            Javascript</label>
-                                                        <br>
-                                                        <label>
-                                                            <input type="checkbox" id="cbox1" value="first_checkbox">
-                                                            C#</label>
-                                                        <br>
-                                                        <label>
-                                                            <input type="checkbox" id="cbox1" value="first_checkbox">
-                                                            Python</label>
-                                                        <br>
-                                                        <label>
-                                                            <input type="checkbox" id="cbox1" value="first_checkbox">
-                                                            Fluter</label>
-                                                        <br>
-                                    
-                                    
-                                    
-                                                        <div class="modal-footer">
-                                                            <button type="button" class="btn btn_cerrar" data-bs-dismiss="modal">Cerrar</button>
-                                                            <button type="button submit" class="btn btn_submit">Guardar</button>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                    
-                                    
-                                    
-                                    
-                                        </form>
-                                    
+
+
+
 
 
 
@@ -253,13 +208,13 @@
     </div>
     <!--Container Main end-->
     <!--Scripts NAVBAR No tocar-->
-    <script src="../assets/js/nav.js"></script>
+    <script src="/assets/js/nav.js"></script>
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
     <!--mi script Home -->
-    <link rel="stylesheet" href="../assets/js/home.js" />
+    <link rel="stylesheet" href="/assets/js/home.js" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
@@ -277,64 +232,3 @@
 </body>
 
 </html>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-       

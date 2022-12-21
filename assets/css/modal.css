@@ -3,6 +3,7 @@
 .btn_form{
 
 background-color: #ED7E19;
+width: 250px;
 
 }
 .form_body{
@@ -24,3 +25,9 @@ background-color:#F8D02F;
 
     color:white
 }
+
+.titulo_form{
+    
+        margin-top: 10px;
+    }
+    
