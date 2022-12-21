@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  
+.registro{
+   margin-top: 60px;
+   height: 600px;
+
+
+ 
+}
+
+#cajaregistro{
+    border: 2px solid blueviolet;
+    padding: 35px 20px;
+
+}
