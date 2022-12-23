@@ -27,8 +27,17 @@
   font-weight: 900;
   font-size:140px;
   color: rgb(242, 239, 237);
-  -webkit-text-stroke: 1px black;
+  -webkit-text-stroke: 4px black;
   
+}
+
+.btn-central{
+ color: #ffff;
+ font-size: large;
+ border-radius: 30px;
+  height: 60px;
+  width: 120px;
+
 }
 
 .divi{
