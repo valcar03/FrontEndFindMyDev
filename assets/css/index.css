@@ -218,7 +218,16 @@ a {
         padding-left: calc(var(--nav-width) + 188px)
     }
 
-    
-}
+    .mision {
+        background-color: #f1bc54
+    }
 
+    .vision {
+        background-color: #d8813f
+    }
+
+    .valores {
+        background-color: #f1bc54
+    }
+}
 ;
