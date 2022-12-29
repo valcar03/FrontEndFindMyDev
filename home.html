@@ -1,439 +1,277 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
+<html lang="es">
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--CSS De NAvbar-->
     <!--Boostrap-->
-    <link rel="stylesheet" href="./assets/css/nav.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
-    />
+    <link rel="stylesheet" href="assets/css/nav.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
     <!-- GoogleFont-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap" rel="stylesheet" />
 
-    <!-- Cierre Css de Nav------------>
+    <!-- Cierre Css de Nav-->
     <!-- Inicio clases para main Home -->
-    <link rel="stylesheet" href="/assets/css/home.css" />
-
-    <!------->
-    <link
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      rel="stylesheet"
-      id="bootstrap-css"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css"
-      rel="stylesheet"
-    />
-
+    <link rel="stylesheet" href="assets/css/home.css" />
+    
     <title>Document</title>
-  </head>
-  <body>
-    <div id="body-pd">
-      <header class="header" id="header">
-        <div class="header_toggle">
-          <i class="bx bx-menu" id="header-toggle"></i>
+</head>
+
+<body id="body-pd">
+    <header class="header row" id="header">  
+      <div class="header_toggle col-md-2" > <i class='bx bx-menu' id="header-toggle"></i> </div>
+      <h2 class="text-buscador titulo_form  col-md-8">HOME</h2>
+      
+      <div class="dropdown col-1 ">
+        <button class="dropdown-toggle boton_editar" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+              </svg>
+        </button>
+        <ul class="dropdown-menu opciones_perfil">
+          <li><a class="dropdown-item" href="#">Editar Nombre</a></li>
+          <li><a class="dropdown-item" href="#">Editar Avatar</a></li>
+          <li><a class="dropdown-item" href="#">Editar Contraseña</a></li>
+        </ul>
+      </div>
+      <div class="header_img"> 
         </div>
-        <div class="header_img">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="25"
-            height="25"
-            fill="currentColor"
-            class="bi bi-person"
-            viewBox="0 0 16 16"
-          >
-            <path
-              d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
-            />
-          </svg>
+    </header>
+    <div class="l-navbar" id="nav-bar" style="padding-left: 7px;padding-right: 0px;">
+      <nav class="nav navbar-container" >
+        <div class="row header-nav " id = "usuario">
+          <div class="col-md-6 foto-avatar">
+            <img class="imgg"  href="" src="/assets/img/fotos/mujer.png" width="5px" alt="img-resposive">
+          </div>
+      
+          <div class="col-md-5 container-nav info1" >
+            <h3 id="bienvenidatext"> Hola!</h3>
+            <p class="nombre-nav"> Maria luz</p>
+
+          </div>
         </div>
-      </header>
-      <div
-        class="l-navbar"
-        id="nav-bar"
-        style="padding-left: 10px; padding-right: 0px"
-      >
-        <nav class="nav navbar-container">
-          <div class="row header-nav">
-            <a href="">
-              <div class="col-md-5 foto-avatar text-center">
-                <img
-                  class="imgg rounded-circle"
-                  src="/assets/img/fotos/4043251-avatar-female-girl-woman_113291.png"
-                  width="300px"
-                  alt="img-resposive"
-                />
-              </div>
+        <div class="row item_list">
+          <div class="nav_list"> <a href="#" class="nav_link active"> <i class='bx bx-grid-alt nav_icon'></i>
+              <span class="nav_name">Mi Perfil</span>
             </a>
-            <div
-              class="col-md-12 container-nav text-center"
-              style="padding-left: 0px; margin-left: 100px"
-            >
-              <h3 id="bienvenidatext">Hola !</h3>
-              <p class="nombre-nav">Maria luz</p>
-            </div>
+            <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Mis
+                candidatos</span> </a>
+            <a href="#" class="nav_link"> <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">FindDevs</span>
+            </a>
           </div>
-          <div class="row">
-            <div class="nav_list">
-              <a href="#" class="nav_link active">
-                <i class="bx bx-grid-alt nav_icon"></i>
-                <span class="nav_name">Mi Perfil</span>
-              </a>
-              <a href="#" class="nav_link">
-                <i class="bx bx-user nav_icon"></i>
-                <span class="nav_name">Mis candidatos</span>
-              </a>
-              <a href="#" class="nav_link">
-                <i class="bx bx-message-square-detail nav_icon"></i>
-                <span class="nav_name">Ofertas</span>
-              </a>
-              <a href="#" class="nav_link">
-                <i class="bx bx-bookmark nav_icon"></i>
-                <span class="nav_name">FindDevs</span>
-              </a>
-            </div>
-          </div>
-          <a href="#" class="nav_link">
-            <i class="bx bx-log-out nav_icon"></i>
-            <span class="nav_name">Cerrar sesión</span>
-          </a>
-        </nav>
-      </div>
-      <!--Container Main start-->
-      <div class="bg-light">
-        <div class="container-fluid">
-          <div class="row main-central">
-            <div class="col-12">
-             
-                <h2 class="text-buscador ">BUSCADOR ....</h2>
-              
-            </div>
-          </div>
-          <div class="row container-filtros mx-auto">
-            <div class="col-md-3">
-              <button
-                type="button"
-                class="btn-filtro mr-2 modal-btn"
-                data-toggle="modal"
-                title="checkboxes"
-                data-target="#modal-id"
-              >
-                <i class="mdi mdi-access-point"
-                  ><span class="inverter-btn-sm"> Habilidades Blandas</span></i
-                >
-              </button>
-            </div>
-            <!--btn 2-->
-            <div class="col-md-3">
-              <button
-                type="button"
-                class="btn-filtro mr-2 modal-btn"
-                data-toggle="modal"
-                title="checkboxes"
-                data-target="#modal-id"
-              >
-                <i class="mdi mdi-access-point"
-                  ><span class="inverter-btn-sm"> Habilidades Tecnicas</span></i
-                >
-              </button>
-            </div>
-            <!--Btn 3-->
-            <div class="col-md-3">
-              <button
-                type="button"
-                class="btn-filtro mr-2 modal-btn"
-                data-toggle="modal"
-                title="checkboxes"
-                data-target="#modal-id"
-              >
-                <i class="mdi mdi-access-point"
-                  ><span class="inverter-btn-sm"> sexo</span></i
-                >
-              </button>
-            </div>
-            <!--Btn-4-->
-            <div class="col-md-3">
-              <button
-                type="button"
-                class="btn-filtro mr-2 modal-btn"
-                data-toggle="modal"
-                title="checkboxes"
-                data-target="#modal-id"
-              >
-                <i class="mdi mdi-access-point"
-                  ><span class="inverter-btn-sm"> Valoracion</span></i
-                >
-              </button>
-            </div>
-          </div>
-          <!-- Modal ! 1 -->
-          <div
-            class="modal fade"
-            id="modal-id"
-            tabindex="-1"
-            aria-labelledby="ModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="ModalLabel">Checkboxes</h5>
-                  <button
-                    type="button"
-                    class="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">&times;</span>
-                  </button>
-                </div>
-                <div class="modal-body">
-                  <div class="mb-3">
-                    <label for="select-all-checkbox"
-                      ><input
-                        class=""
-                        type="checkbox"
-                        name="select-all"
-                        id="select-all-checkbox"
-                      />
-                      Select All
-                    </label>
-                  </div>
-                  <div class="row checkboxes-list">
-                    <div class="col-6">
-                      <input
-                        name="checkbox-input"
-                        id="checkbox-id1"
-                        type="checkbox"
-                      />
-                      <label for="checkbox-id1"> checkbox 1</label>
-                    </div>
-                    <div class="col-6">
-                      <input
-                        name="checkbox-input"
-                        id="checkbox-id2"
-                        type="checkbox"
-                      />
-                      <label for="checkbox-id2"> checkbox 2</label>
-                    </div>
-                    <div class="col-6">
-                      <input
-                        name="checkbox-input"
-                        id="checkbox-id3"
-                        type="checkbox"
-                      />
-                      <label for="checkbox-id3"> checkbox 3</label>
-                    </div>
-                    <div class="col-6">
-                      <input
-                        name="checkbox-input"
-                        id="checkbox-id4"
-                        type="checkbox"
-                      />
-                      <label for="checkbox-id4"> checkbox 4</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-warning boton-modal-1"
-                    data-dismiss="modal"
-                    onclick="selectedCheckBoxes()"
-                  >
-                    Guardar seleccion
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-dismiss="modal"
-                  >
-                    Cerrar
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Modal -->
-
-          <!--INICIO SECCION RESULTADOS -->
-          <div class="container-fluid p-5" id="resultados-postulantes">
-            <h2 class="text-resultados"> Mis Resultados</h2>
-            <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
-                <div class="col">
-                    <div class="card h-80 shadow-sm tarjeta-postulante">
-                        <div class="text-center">
-                            <div class="img-hover-zoom img-hover-zoom--colorize">
-                                <img class="shadow" src="/assets/img/fotos/4043251-avatar-female-girl-woman_113291.png"
-                                    alt="Another Image zoom-on-hover effect">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="clearfix mb-3">
-                            </div>
-                            <div class="my-2 text-center">
-                                <h1>Mia Wallace</h1>
-                            </div>
-                            <div class="mb-3">
-                                <h2 class="text-uppercase text-center role">Senior Frontend Developer</h2>
-                            </div>
-                            <div class="box">
-                                <div>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-linkedin-in"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <button type="button" class="btn btn-perfiles btn-outline-warning">Ver perfil</button>
-                        </div>
-                    </div>
-                </div>
-                <!---CARDS 2-->
-                <div class="col">
-                    <div class="card h-80 shadow-sm tarjeta-postulante">
-                        <div class="text-center">
-                            <div class="img-hover-zoom img-hover-zoom--colorize">
-                                <img class="shadow" src="/assets/img/fotos/4043260-avatar-male-man-portrait_113269.png"
-                                alt="Another Image zoom-on-hover effect">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="clearfix mb-3">
-                            </div>
-                        <div class="my-2 text-center">
-                        <h1>Vincent Vega</h1>
-                        </div>
-                        <div class="mb-3">
-                        <h2 class="text-uppercase text-center role">SEO Specialist</h2>
-                            </div>
-                            <div class="box">
-                                <div>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-linkedin-in"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            
-                            <button type="button" class="btn btn-perfiles btn-outline-warning">Ver perfil</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARD 3 -->
-                <div class="col">
-                    <div class="card h-80 shadow-sm">
-                        <div class="text-center">
-                            <div class="img-hover-zoom img-hover-zoom--colorize">
-                                <img class="shadow" src="/assets/img/fotos/pngegg (1).png"
-                                    alt="Another Image zoom-on-hover effect">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="clearfix mb-3">
-                            </div>
-                             <div class="my-2 text-center">
-                                <h1>Mr. Wolf</h1>
-                            </div>
-                            <div class="mb-3">
-                                <h2 class="text-uppercase text-center role">DIGITAL MARKETING SPECIALIST</h2>
-                            </div>
-                            <div class="box">
-                                <div>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-linkedin-in"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <button type="button" class="btn btn-perfiles btn-outline-warning">Ver perfil</button>
-                        </div>
-                    </div>
-                </div>
-                <!-- CARDS 4-->
-                <div class="col">
-                    <div class="card h-80 shadow-sm">
-                        <div class="text-center">
-                            <div class="img-hover-zoom img-hover-zoom--colorize">
-                                <img class="shadow" src="/assets/img/fotos/pngegg.png"
-                                    alt="Another Image zoom-on-hover effect">
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div class="clearfix mb-3">
-                             </div>
-                        <div class="my-2 text-center">
-                           <h1>O-Ren Ishii</h1>
-                            </div>
-                            <div class="mb-3">
-                    <h2 class="text-uppercase text-center role">Web Developer</h2>
-                   
-                        </div>
-                            <div class="box">
-                                <div>
-                                    <ul class="list-inline">
-                                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-linkedin-in"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
-                                        <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
-                                    </ul>
-                                </div>
-                                
-                            </div>
-                            <button type="button" class="btn btn-perfiles btn-outline-warning">Ver perfil</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    
-    
-    
-        </div>
-    
-    
-        </div>
-      </div>
-      <!--Container Main end-->
-      <!--Scripts NAVBAR No tocar-->
-      <script src="./assets/js/nav.js"></script>
-      <script src="js/jquery-3.3.1.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-
-      <!--mi script Home -->
-      <link rel="stylesheet" href="/assets/js/home.js" />
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-      <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+        </div> <a href="#" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">Cerrar
+            sesión</span> </a>
+      </nav>
     </div>
-  </body>
+        <!--Container Main start-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 cajaFiltro text-center">
+          <h5>Encuentra a tu Devs por sus Habilidades Blandas</h5>
+          <form action="/home/habilidad_blanda" method="post" class="form-home">
+            <select name="habilidad_blandaSeleccionada" id="habilidad_blandaSeleccionada" class="btn btn-outline-warning select-home">
+                <option value= "0" selected>Categorías</option>
+                <c:forEach var="habilidad_blanda" items="${obtenerListaHabilidad_Blanda}">
+                <option value="${habilidad_blanda.id}">${habilidad_blanda.nombre}</option>
+                </c:forEach>
+            </select>
+        <button type="submit" class="btn btn-outline-warning">Filtrar</button>
+        </form>
+        </div>
+        <div class="col-md-6  cajaFiltro text-center">
+          <h5>Encuentra a tu Devs por sus Habilidades Tecnicas</h5>
+          <form action="/home/habilidad_tecnica" method="post" class="form-home">
+            <select name="habilidad_blandaSeleccionada" id="habilidad_blandaSeleccionada" class="btn btn-outline-warning select-home">
+                <option value= "0" selected>Categorías</option>
+                <option value="1">React</option>
+                <option value="2">Java</option>
+                <option value="1">Springt</option>
+                <option value="1">Html</option>
+                <option value="1">Css</option>
+                <option value="1">MySql</option>
+                <option value="1">Javascript</option>
+
+            </select>
+        <button type="submit" class="btn btn-outline-warning">Filtrar</button>
+        </form>
+        </div>
+      </div>
+    </div>
+    <!--CIERRE FILTROS-->
+    <!--INICIO SECCION RESULTADOS -->
+    <div class="container-fluid p-5" id="resultados-postulantes">
+      <h2 class="text-resultados"> Mis Resultados</h2>
+      <div class="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+          <div class="col">
+              <div class="card h-80 shadow-sm tarjeta-postulante">
+                  <div class="text-center">
+                      <div class="img-hover-zoom img-hover-zoom--colorize">
+                          <img class="shadow" src="/assets/img/fotos/4043251-avatar-female-girl-woman_113291.png"
+                              alt="Another Image zoom-on-hover effect">
+                      </div>
+                  </div>
+                  <div class="card-body">
+                      <div class="clearfix mb-3">
+                      </div>
+                      <div class="my-2 text-center">
+                          <h1>Mia Wallace</h1>
+                      </div>
+                      <div class="mb-3">
+                          <h2 class="text-uppercase text-center role">Senior Frontend Developer</h2>
+                      </div>
+                      <div class="box">
+                          <div>
+                              <ul class="list-inline">
+                                  <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-linkedin-in"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <button type="button" class="btn btn-perfiles btn-outline-warning">Ver perfil</button>
+                  </div>
+              </div>
+          </div>
+          <!---CARDS 2-->
+          <div class="col">
+              <div class="card h-80 shadow-sm tarjeta-postulante">
+                  <div class="text-center">
+                      <div class="img-hover-zoom img-hover-zoom--colorize">
+                          <img class="shadow" src="/assets/img/fotos/4043260-avatar-male-man-portrait_113269.png"
+                          alt="Another Image zoom-on-hover effect">
+                      </div>
+                  </div>
+                  <div class="card-body">
+                      <div class="clearfix mb-3">
+                      </div>
+                  <div class="my-2 text-center">
+                  <h1>Vincent Vega</h1>
+                  </div>
+                  <div class="mb-3">
+                  <h2 class="text-uppercase text-center role">SEO Specialist</h2>
+                      </div>
+                      <div class="box">
+                          <div>
+                              <ul class="list-inline">
+                                  <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-linkedin-in"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+                              </ul>
+                          </div>
+                      </div>
+                      
+                      <button type="button" class="btn btn-perfiles btn-outline-warning">Ver perfil</button>
+                  </div>
+              </div>
+          </div>
+          <!-- CARD 3 -->
+          <div class="col">
+              <div class="card h-80 shadow-sm">
+                  <div class="text-center">
+                      <div class="img-hover-zoom img-hover-zoom--colorize">
+                          <img class="shadow" src="/assets/img/fotos/pngegg (1).png"
+                              alt="Another Image zoom-on-hover effect">
+                      </div>
+                  </div>
+                  <div class="card-body">
+                      <div class="clearfix mb-3">
+                      </div>
+                       <div class="my-2 text-center">
+                          <h1>Mr. Wolf</h1>
+                      </div>
+                      <div class="mb-3">
+                          <h2 class="text-uppercase text-center role">DIGITAL MARKETING SPECIALIST</h2>
+                      </div>
+                      <div class="box">
+                          <div>
+                              <ul class="list-inline">
+                                  <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-linkedin-in"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <button type="button" class="btn btn-perfiles btn-outline-warning">Ver perfil</button>
+                  </div>
+              </div>
+          </div>
+          <!-- CARDS 4-->
+          <div class="col">
+              <div class="card h-80 shadow-sm">
+                  <div class="text-center">
+                      <div class="img-hover-zoom img-hover-zoom--colorize">
+                          <img class="shadow" src="/assets/img/fotos/pngegg.png"
+                              alt="Another Image zoom-on-hover effect">
+                      </div>
+                  </div>
+                  <div class="card-body">
+                      <div class="clearfix mb-3">
+                       </div>
+                  <div class="my-2 text-center">
+                     <h1>O-Ren Ishii</h1>
+                      </div>
+                      <div class="mb-3">
+              <h2 class="text-uppercase text-center role">Web Developer</h2>
+             
+                  </div>
+                      <div class="box">
+                          <div>
+                              <ul class="list-inline">
+                                  <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-linkedin-in"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-instagram"></i></li>
+                                  <li class="list-inline-item"><i class="fab fa-twitter"></i></li>
+                              </ul>
+                          </div>
+                          
+                      </div>
+                      <button type="button" class="btn btn-perfiles btn-outline-warning">Ver perfil</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+  </div>
+
+
+  </div>
+</div>
+<!--Container Main end-->
+
+    
+    <!--Container Main end-->
+    <!--Scripts NAVBAR No tocar-->
+    <script src="/assets/js/nav.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!--mi script Home -->
+    <link rel="stylesheet" href="/assets/js/home.js" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script src="../assets/js/modal.js"></script>
+
+    <!-- scrip modal -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+
+</body>
+
 </html>
