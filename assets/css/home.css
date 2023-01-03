@@ -17,36 +17,6 @@ body {
   
 }
 
-.text-buscador{
-    font-family: "Nunito", sans-serif;
-    font-weight: 900;
-    font-size: 40px;
-    margin-bottom: 40px;
-    margin-left:50px;
-}
-
-.buscador {
-  height: 200px;
-  width: 100%;
-  background-color: rgba(21, 245, 170, 0.406);
-  margin: 0px 30px;
-  border-radius: 15px;
-}
-
-.container-filtros {
-  justify-content: center;
-}
-
-.btn-filtro {
-  border-radius: 15px;
-  width: 12rem;
-  height: 40px;
-  background-color: #f8d02f;
-}
-
-.boton-modal-1{
-    background-color:#f8d02f ;
-}
 
 
 /*
@@ -186,4 +156,18 @@ Botones cards
 .btn:focus {
           background: #441CFF;
           outline: 0;  
+}
+
+
+.form-home{
+    background-color: #fff;
+}
+
+.select-home{
+    margin-bottom: 10px;
+}
+
+.cajaFiltro{
+    margin-top: 85px;
+    
 }

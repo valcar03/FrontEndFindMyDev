@@ -81,5 +81,40 @@
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
 }
+
+.mision {
+    -webkit-box-shadow: 10px 10px 12px 4px rgba(0,0,0,0.76);
+    -moz-box-shadow: 10px 10px 12px 4px rgba(0,0,0,0.76);
+    box-shadow: 10px 10px 12px 4px rgba(0,0,0,0.76);
+    background-color:#f7971e;
+    font-weight: 700;
+  font-size: xx-large;
+  color: rgb(242, 239, 237);
+  padding: 10px 5px;
+    }
+    
+
+
+.vision {
+    -webkit-box-shadow: 10px 10px 12px 4px rgba(0,0,0,0.76);
+-moz-box-shadow: 10px 10px 12px 4px rgba(0,0,0,0.76);
+box-shadow: 10px 10px 12px 4px rgba(0,0,0,0.76);
+background-color:#F1B10B;
+font-weight: 700;
+font-size: xx-large;
+color: rgb(242, 239, 237);
+padding: 10px 5px;
+}
+
+.valores{
+    -webkit-box-shadow: 10px 10px 12px 4px rgba(0,0,0,0.76);
+  -moz-box-shadow: 10px 10px 12px 4px rgba(0,0,0,0.76);
+  box-shadow: 10px 10px 12px 4px rgba(0,0,0,0.76);
+  background-color:#f7971e;
+  font-weight: 700;
+  font-size: xx-large;
+  color: rgb(242, 239, 237);
+  padding: 10px 5px;
+  }
+  
