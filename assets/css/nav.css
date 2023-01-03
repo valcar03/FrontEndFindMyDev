@@ -650,3 +650,19 @@ justify-content: space-between!important;
 
 
 }
+
+
+
+
+
+.lista_candidatos{
+
+    display: flex;
+
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+
+
+
+}
