@@ -34,9 +34,32 @@ font-family: 'Signika Negative', sans-serif;
     font-family: 'Signika Negative', sans-serif;
     font-weight: 200;
     font-size: larger;
+    justify-content: justify;
+    font-size: 1em;
 }
 
 .btn-lab{
     margin-bottom: 10px;
     width: 30%;
+}
+
+.card-header{ font-size: 1.3em!important;
+
+    color: black;
+
+
+background-color:#d9d9d95a 
+
+}
+
+
+
+
+.card-text{
+    justify-content: justify;
+} 
+
+li{
+list-style: none!important
+
 }
