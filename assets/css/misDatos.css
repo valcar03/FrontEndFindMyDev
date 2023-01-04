@@ -1,13 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&family=Signika+Negative:wght@500&display=swap');
+.contenedorMenu{
+    justify-content: center;
+}
+
 
 .menu-form-inscritos{
     margin-top: 25px;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+.menu-carta{
+    border-radius: 10px;
+    width: max-content;
 }
 
 .tarjeta-laboral{
-    height: max-content;
+    height: 400px;
     border-radius: 25px ;
+    width: 230px !important;
+    
 }
 
 .contenedor-lab{
@@ -39,16 +52,17 @@ font-family: 'Signika Negative', sans-serif;
 }
 
 .btn-lab{
-    margin-bottom: 10px;
-    width: 30%;
+    margin: 10px 5px;
+    width: 50%;
 }
 
 .card-header{ font-size: 1.3em!important;
 
     color: black;
+    border-radius: 5px !important;
 
 
-background-color:#d9d9d95a 
+
 
 }
 
@@ -62,4 +76,8 @@ background-color:#d9d9d95a
 li{
 list-style: none!important
 
+}
+
+.container-tarjetas-db{
+    align-items: center;
 }
