@@ -17,9 +17,10 @@
 }
 
 .tarjeta-laboral{
-    height: 400px;
+    height: max-content;
     border-radius: 25px ;
     width: 230px !important;
+
     
 }
 
