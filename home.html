@@ -62,7 +62,7 @@
           <div class="nav_list"> <a href="/perfil.html" class="nav_link active"> <i class='bx bx-grid-alt nav_icon'></i>
               <span class="nav_name">Mi Perfil</span>
             </a>
-            <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Mis
+            <a href="/misCandidatos.html" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Mis
                 candidatos</span> </a>
             <a href="/home.html" class="nav_link"> <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">FindDevs</span>
             </a>
@@ -76,12 +76,16 @@
       <div class="row">
         <div class="col-md-6 cajaFiltro text-center">
           <h5>Encuentra a tu Devs por sus Habilidades Blandas</h5>
-          <form action="/home/habilidad_blanda" method="post" class="form-home">
+          <form action="/home/habilidad_tecnica" method="post" class="form-home">
             <select name="habilidad_blandaSeleccionada" id="habilidad_blandaSeleccionada" class="btn btn-outline-warning select-home">
                 <option value= "0" selected>Categorías</option>
-                <c:forEach var="habilidad_blanda" items="${obtenerListaHabilidad_Blanda}">
-                <option value="${habilidad_blanda.id}">${habilidad_blanda.nombre}</option>
-                </c:forEach>
+                <option value="1">Trabajo en Equipo</option>
+                <option value="2">Gestion del Tiempo</option>
+                <option value="1">Persistencia</option>
+                <option value="1">Orientacion al Detalle</option>
+                <option value="1">Comunicacion</option>
+        
+
             </select>
         <button type="submit" class="btn btn-outline-warning">Filtrar</button>
         </form>
