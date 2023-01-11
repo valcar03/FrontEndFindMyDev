@@ -18,7 +18,7 @@
 
 .tarjeta-laboral{
     height: max-content;
-    border-radius: 25px ;
+ 
     width: 230px !important;
 
     
@@ -59,13 +59,14 @@ font-family: 'Signika Negative', sans-serif;
 
 .card-header{ font-size: 1.3em!important;
 
-    color: black;
+    color: white;
     border-radius: 5px !important;
 
 
 
 
 }
+
 
 
 
@@ -82,3 +83,5 @@ list-style: none!important
 .container-tarjetas-db{
     align-items: center;
 }
+
+.card-header{background-color: #ed7d19 !important;}
